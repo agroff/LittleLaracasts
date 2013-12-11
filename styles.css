@@ -1,0 +1,22 @@
+body.littleMode .col-md-12.centered.video,
+body.littleMode article.article{
+    padding:0px;
+}
+body.littleMode nav.navbar-fixed-top{
+    display:none;
+}
+body.littleMode div.container{
+    max-width:2000px;
+}
+.icon-plus-circle:before {
+    content: "\f055";
+}
+.icon-minus-circle:before {
+    content: "\f056";
+}
+@media (max-width: 767px){
+    article.article .video-extras {
+        display: block;
+    }
+}
+
