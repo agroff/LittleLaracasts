@@ -1,6 +1,6 @@
 {
     "name": "Little Laracasts",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "manifest_version": 2,
     "description": "Add a button to laracasts to let you use the entirety of your window efficiently.",
     "permissions": [
@@ -9,8 +9,7 @@
     "content_scripts": [
     {
       "matches": [
-          "https://www.laracasts.com/*",
-          "http://www.laracasts.com/*"
+          "https://laracasts.com/*"
       ],
       "css": ["styles.css"],
       "js": ["jquery.js", "content.js"]

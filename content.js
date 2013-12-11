@@ -24,5 +24,4 @@
     littleLaracastsContainer.append(littleLaracastSwitch);
 
     $("ul.video-extras").append(littleLaracastsContainer);
-
 })();
